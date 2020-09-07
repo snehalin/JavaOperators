@@ -1,0 +1,38 @@
+Operators in java
+1.Aritmetic Operators-  +,-,*,/,%   Numeric,character
+2.Relational   <,>,<=,>=    Numeric,character  returns boolean
+3.Logical      &&,|| ,!   bits  boolean 
+4.Conditional/Ternary ?:
+5.Increment/Decrement  ++,--   int,long,byte,short,char,float,double
+6.Assignment +=,*=,-=,==,>>=
+7.Shift       <<,>>,>>>
+8.Bitwise   &,|,^,~
+
+
+   true<false
+   10<20
+   'a'<'5'
+   1.2 && 2.4
+
+		&& Truth Table        
+          T T  -> T 
+          T F  -> F
+          F T  -> F
+          F F  -> F
+
+
+	|| Truth Table
+          T T  -> T 
+          T F  -> T
+          F T  -> T
+          F F  -> F
+
+	^ Truth Table
+          T T  -> F 
+          T F  -> T
+          F T  -> T
+          F F  -> F
+
+      Condition ?result 1: result2
+		
+       (10>20) ? 10:20
