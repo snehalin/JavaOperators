@@ -1,0 +1,60 @@
+Operators
+1.Arithmetic-   +,-,*,/,%
+2.Relational-   <,>,<=>=     return boolean
+3.Assignment--  +=,-=,*=,/=,%=,<<=,>>=
+4.Logical -- &&,||,!     boolean
+
+ && truthtable
+ 
+F F   -> F
+F T   -> F
+T F   -> F
+T T   ->T
+
+
+
+
+
+|| truthtable
+ 
+F F   -> F
+F T   -> T
+T F   -> T
+T T   ->T
+
+5.Increment/Decrement  -->   ++ ,-- (unary)
+6.Conditional(Ternary)-->
+
+  var =(condition)?stmt1:stmt2;
+7.Bitwise &,|,^ ,~   bits ( integer,char)
+
+
+^ truthtable
+ 
+F F   -> F
+F T   -> T
+T F   -> T
+T T   -> F
+
+8.Shift   <<,>>,>>> bits ( integer,char)
+
+z=-10>>1;
+ 
+-ve numbers are stored using 2's compliments
+2's compliments= 1's Compliment+1
+1's Compliment=inverse
+  
+  1010
+
+  0101  -->1's compliment
++    1
+------
+  0110  --->2s compliment  -10     for +ve number vacant spaces filled by 0
+  1011  --->shift 1 pos to right ,for -ve number vacant spaces filled by 1 >>
+                                   for -ve,+ve number vacant spaces filled by 0>>>
+  0100
+     1
+ -----
+  0101  -->5
+        -->-5
+
